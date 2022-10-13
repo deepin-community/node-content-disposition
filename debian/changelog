@@ -1,0 +1,55 @@
+node-content-disposition (0.5.3-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+
+ -- Yadd <yadd@debian.org>  Sun, 03 Oct 2021 17:48:55 +0200
+
+node-content-disposition (0.5.3-1) unstable; urgency=medium
+
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * New upstream version 0.5.3
+  * Add dependency to node-safe-buffer and build dependency to node-deep-equal
+  * Replace Andrew Kelley by myself in uploaders list. Thanks for your work!
+    (Closes: #909889)
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 13 Nov 2019 22:06:07 +0100
+
+node-content-disposition (0.5.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:42:36 +0200
+
+node-content-disposition (0.5.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Switch to autopkgtest-pkg-nodejs (Closes: #894931)
+  * Update Vcs-* fields for move to salsa
+  * Switch to Section: javascript, Priority: optional
+  * Use secure copyright format URI
+  * Bump Standards-Version to 4.3.0, no further changes
+
+ -- Graham Inggs <ginggs@debian.org>  Fri, 24 May 2019 13:56:47 +0000
+
+node-content-disposition (0.5.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #765433)
+
+ -- Andrew Kelley <superjoe30@gmail.com>  Wed, 15 Oct 2014 18:02:46 +0200
